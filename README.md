@@ -3,7 +3,7 @@
 ## Project Structure
 
 app/ # Application logic (vision, PLC, system)
-tests/ # pytest tests (unit, E2E, optional UI)
+tests/ # pytest tests (unit, E2E, UI)
 
 ## How to Run Tests
 
@@ -17,7 +17,7 @@ python -m pytest
 
 - **Unit Tests:** `test_vision_unit.py`, `test_plc_unit.py`  
 - **E2E Tests:** `test_e2e_happy_path.py`, `test_e2e_edge_cases.py`  
-- **UI Smoke Test (Optional):** `test_ui_smoke.py`
+- **UI Smoke Test:** `test_ui_smoke.py`
 
 ## Assumptions
 
