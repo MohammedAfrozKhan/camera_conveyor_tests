@@ -9,6 +9,7 @@ def run_cycle(plc, camera_frame):
     Simulates a single conveyor cycle:
     start -> capture image -> module out
     """
+    plc.module_out = False
     plc.start_cycle()
     logging.info("Cycle started")
 
